@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="All Tests">
+    <test name="AllTests">
+        <classes>
+            <class name="Tests.Balance.BalanceTest"/>
+
+            <class name="Tests.BetSleep.BetSleepHeaderTest"/>
+            <class name="Tests.BetSleep.BetSleepRemoveItemTest"/>
+            <class name="Tests.BetSleep.BetSleepTest"/>
+
+            <class name="Tests.BottomMenu.BottomMenuTest"/>
+
+            <class name="Tests.BottomTabAZSports.BottomTabAZSportsTest"/>
+            <class name="Tests.BottomTabAZSports.PredictiveSearchAZSportsTest"/>
+
+            <class name="Tests.BottomTabFavourites.FavoritesTest"/>
+
+            <class name="Tests.BottomTabInPlay.InPlaySportsTest"/>
+            <class name="Tests.BottomTabInPlay.InPlayTest"/>
+
+            <class name="Tests.BottomTabHome.BarTabsTest"/>
+            <class name="Tests.BottomTabHome.HighlightsTabTest"/>
+            <class name="Tests.BottomTabHome.LiveTabTest"/>
+            <class name="Tests.BottomTabHome.PopularTabTest"/>
+            <class name="Tests.BottomTabHome.UpNextTabTest"/>
+
+            <class name="Tests.MainMenu.HelpAndSupport.DisclaimerTest"/>
+
+            <class name="Tests.MainMenu.ResponsibleGambling.AccountOperationRulesTest"/>
+            <class name="Tests.MainMenu.ResponsibleGambling.CodeOfConductTest"/>
+            <class name="Tests.MainMenu.ResponsibleGambling.ResponsibleGamblingRulesTest"/>
+
+            <class name="Tests.MainMenu.MainMenuTest"/>
+            <class name="Tests.MainMenu.PromotionsActiveTest"/>
+            <class name="Tests.MainMenu.PromotionsPastTest"/>
+
+            <class name="Tests.LoginLogOut.LoginTest"/>
+            <class name="Tests.LoginLogOut.LogoutTest"/>
+
+        <!--    <class name="Tests.MainMenu.MainMenuTest"/> -->
+
+            <class name="Tests.MyBet.MyBetsCloseTest"/>
+            <class name="Tests.MyBet.MyBetsFiltersTest"/>
+            <class name="Tests.MyBet.MyBetsPopupTest"/>
+            <class name="Tests.MyBet.MyBetsTest"/>
+            <class name="Tests.MyBet.MyBetsUpdateDataTest"/>
+            <class name="Tests.MyBet.QuickSetBetTest"/>
+
+            <class name="Tests.SportsDetails.SportsBinariesTest"/>
+            <class name="Tests.SportsDetails.SportsFinderTabTest"/>
+            <class name="Tests.SportsDetails.SportsHeaderTest"/>
+            <class name="Tests.SportsDetails.SportsInPlayTabTest"/>
+            <class name="Tests.SportsDetails.SportsLongTermTabTest"/>
+            <class name="Tests.SportsDetails.SportsTotalsTabTest"/>
+            <class name="Tests.SportsDetails.SportsTransitionBetweenMeetingsTest"/>
+
+        </classes>
+    </test>
+</suite>
